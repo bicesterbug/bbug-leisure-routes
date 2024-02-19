@@ -10,7 +10,7 @@ export default async function Home() {
         {
           routes.map((route) => {
             return (
-              <li key={route}><Link href={`/routes/${route}`}>{route}</Link></li>
+              <li key={route.id}><Link href={`/routes/${route.id}`}>{route.id} {route.name}</Link></li>
             )
           })
         }
