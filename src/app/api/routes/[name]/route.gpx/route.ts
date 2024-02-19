@@ -3,13 +3,11 @@ import getRoutes from "@/data/getRoutes"
 
 export async function generateStaticParams() {
     const routes = await getRoutes();
-    return routes.map(route => {
-        return {route}
-    })
+    return routes.map(name => ({name}))
 }
 
-export async function GET(request: Request, {params}: {params: {route: string}}) {
-    const routeGpx = await getRouteGpx(params.route);
+export async function GET(request: Request, {params}: {params: {name: string}}) {
+    const routeGpx = await getRouteGpx(params.name);
 
     return new Response(routeGpx, {headers: {
         "Content-Type": "application/gpx+xml"
