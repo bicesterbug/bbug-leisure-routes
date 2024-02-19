@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    basePath: "/bbug-leisure-routes",
+    //basePath: "/bbug-leisure-routes",
     images: {
         unoptimized: true,
     },
