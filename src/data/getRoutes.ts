@@ -6,7 +6,7 @@ import getRouteMetadata from "./getRouteMetadata";
 
 
 export default async function getRoutes() {
-    const routePath = path.resolve('./routes');
+    const routePath = path.resolve('./public/routes');
     console.log(routePath)
     const routeKeys = await readdir(routePath);
     const routes : RouteMetadata[] = [];
