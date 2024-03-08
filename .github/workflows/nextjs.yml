@@ -71,6 +71,8 @@ jobs:
 
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        env:
+         BASE_URL: https://bicesterbug.github.io/bbug-leisure-routes
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

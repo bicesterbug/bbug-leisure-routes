@@ -5,8 +5,10 @@ import { MapContainer, Marker, Popup, TileLayer, GeoJSON, useMap } from "react-l
 import {centroid} from "@turf/turf"
 import { icon } from "leaflet"
 import Image from "next/image"
+import getBasePath from "@/data/getBasePath"
 
 export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:FeatureCollection, photoCollection:FeatureCollection<Point>}) {
+    const basePath = getBasePath();
     return (
         <MapContainer style={{width:'100%', height:'600px'}} center={[51.912617, -1.151021]} zoom={13}>
                     <TileLayer
@@ -21,12 +23,12 @@ export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:F
                                 key={i}
                                 position={[photoPoint.geometry.coordinates[1], photoPoint.geometry.coordinates[0]]}
                                 icon={icon({
-                                    iconUrl:'/marker-icon.png',
+                                    iconUrl:`${basePath}/marker-icon.png`,
                                     iconAnchor:[12, 41]
                                 })}
                                 >
                                     <Popup>
-                                        <Image alt={photoPoint.properties?.path} src={photoPoint.properties?.path} width={500} height={500} />
+                                        <Image alt={photoPoint.properties?.path} src={`${basePath}/${photoPoint.properties?.path}`} width={500} height={500} />
                                     </Popup>
                                 </Marker>
                             )

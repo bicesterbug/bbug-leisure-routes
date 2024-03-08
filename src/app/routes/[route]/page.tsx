@@ -6,6 +6,7 @@ import getRouteGeojson from "@/data/getRouteGeojson";
 import getRoutePhotos from "@/data/getRoutePhotos";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import getBasePath from "@/data/getBasePath";
 
 export async function generateStaticParams() {
     const routes = await getRoutes();
@@ -19,7 +20,8 @@ export default async function Page({ params }: { params: { route: string } }) {
     const meta = await getRouteMetadata(route);
     const geojson = await getRouteGeojson(route);
     const photos = await getRoutePhotos(route);
-    const RouteMap = dynamic(() => import('./RouteMap'), {ssr: false})
+    const RouteMap = dynamic(() => import('./RouteMap'), {ssr: false});
+    const basePath = getBasePath();
     return (
         <div>
             <div className="flex gap-4">
@@ -44,7 +46,7 @@ export default async function Page({ params }: { params: { route: string } }) {
             {
                 photos.photos.map((photoPath) => {
                     return (
-                        <Image key={photoPath} src={`/routes/${route}/photos/${photoPath}`} width={400} height={400} alt={photoPath} />
+                        <Image key={photoPath} src={`${basePath}/routes/${route}/photos/${photoPath}`} width={400} height={400} alt={photoPath} />
                     )
                 })
             }
