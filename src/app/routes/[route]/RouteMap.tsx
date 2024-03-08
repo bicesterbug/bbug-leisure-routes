@@ -7,7 +7,6 @@ import { icon } from "leaflet"
 import Image from "next/image"
 
 export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:FeatureCollection, photoCollection:FeatureCollection<Point>}) {
-    
     return (
         <MapContainer style={{width:'100%', height:'600px'}} center={[51.912617, -1.151021]} zoom={13}>
                     <TileLayer
