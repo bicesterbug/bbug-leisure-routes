@@ -22,6 +22,9 @@ export default async function Page({ params }: { params: { route: string } }) {
     const RouteMap = dynamic(() => import('./RouteMap'), {ssr: false})
     return (
         <div>
+            <div className="flex gap-4">
+                <Link href={'/'}>Home</Link>
+            </div>
             <h1>{meta?.id}: {meta?.name}</h1>
             <h2>Download</h2>
             <div className="flex gap-4">
