@@ -1,8 +1,7 @@
 "use client"
 
-import { Feature, FeatureCollection, Point } from "geojson"
-import { MapContainer, Marker, Popup, TileLayer, GeoJSON, useMap } from "react-leaflet"
-import {centroid} from "@turf/turf"
+import { FeatureCollection, Point } from "geojson"
+import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from "react-leaflet"
 import { icon } from "leaflet"
 import Image from "next/image"
 import getBasePath from "@/data/getBasePath"

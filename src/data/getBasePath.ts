@@ -1,3 +1,3 @@
 export default function getBasePath() : string {
-    return process.env.BASE_URL ?? ''
+    return process.env.NEXT_PUBLIC_BASE_URL ?? ''
 }
