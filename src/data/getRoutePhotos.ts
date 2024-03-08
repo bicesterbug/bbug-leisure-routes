@@ -3,20 +3,20 @@ import path from "path";
 import exif from "exif-reader";
 import { gpx } from "@tmcw/togeojson";
 import { DOMParser } from "@xmldom/xmldom";
-import { Feature, FeatureCollection, LineString } from "geojson";
+import { Feature, FeatureCollection, LineString, Point } from "geojson";
 import sharp from "sharp";
-import {point, featureCollection} from "@turf/turf";
+import {point } from "@turf/turf";
 
-export default async function getRoutePhotos(route:string) {
+export default async function getRoutePhotos(route:string) : Promise<{photos:string[], features:FeatureCollection<Point>}> {
     const routePath = path.resolve('./public/routes', route, 'photos');
     const routePhotoPaths = await readdir(routePath);
     const gpxTrackIndex = routePhotoPaths.findIndex((filename) => {
         return filename.endsWith('.gpx');
     });
+    let featureCollection:FeatureCollection<Point> = {type: "FeatureCollection", features:[]};
     if(gpxTrackIndex !== -1) {
         const gpxTrackPath = routePhotoPaths.splice(gpxTrackIndex, 1);
         const trackGeojson = await getTrackGeojson(path.join(routePath, gpxTrackPath[0]));
-        let routePhotos = [];
 
         for (const routePhotoPath of routePhotoPaths) {
             const photoBuff = await sharp(path.join(routePath, routePhotoPath)).metadata()
@@ -26,16 +26,15 @@ export default async function getRoutePhotos(route:string) {
                 if(!originalDate || !track.time) return false;
                 return track.time > new Date(originalDate)
             })
-            routePhotos.push(point(nearestTime?.coords, {
+            featureCollection.features.push(point(nearestTime?.coords, {
                 path: path.join(`/routes/${route}/photos/${routePhotoPath}`)
             }))
         }
-
-        return featureCollection(routePhotos)
     }
 
     return {
-        photos: routePhotoPaths
+        photos: routePhotoPaths,
+        features: featureCollection
     }
 }
 
