@@ -70,9 +70,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} build
+        run: ${{ steps.detect-package-manager.outputs.runner }} next build
         env:
           NEXT_PUBLIC_BASE_URL: /bbug-leisure-routes
+
+      - name: Optimise Images
+        run: ${{ steps.detect-package-manager.outputs.runner }} next-image-export-optimizer
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
