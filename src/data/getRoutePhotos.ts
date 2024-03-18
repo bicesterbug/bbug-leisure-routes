@@ -19,16 +19,18 @@ export default async function getRoutePhotos(route:string) : Promise<{photos:str
         const trackGeojson = await getTrackGeojson(path.join(routePath, gpxTrackPath[0]));
 
         for (const routePhotoPath of routePhotoPaths) {
-            const photoBuff = await sharp(path.join(routePath, routePhotoPath)).metadata()
-            const metadata = photoBuff.exif ? exif(photoBuff.exif) : null
-            const originalDate = metadata && metadata.Photo?.DateTimeOriginal ? metadata.Photo.DateTimeOriginal : null;
-            const nearestTime = trackGeojson.find(track => {
-                if(!originalDate || !track.time) return false;
-                return track.time > new Date(originalDate)
-            })
-            featureCollection.features.push(point(nearestTime?.coords, {
-                path: path.join(`/routes/${route}/photos/${routePhotoPath}`)
-            }))
+            if(routePhotoPath.endsWith('.jpg')) {
+                const photoBuff = await sharp(path.join(routePath, routePhotoPath)).metadata()
+                const metadata = photoBuff.exif ? exif(photoBuff.exif) : null
+                const originalDate = metadata && metadata.Photo?.DateTimeOriginal ? metadata.Photo.DateTimeOriginal : null;
+                const nearestTime = trackGeojson.find(track => {
+                    if(!originalDate || !track.time) return false;
+                    return track.time > new Date(originalDate)
+                })
+                featureCollection.features.push(point(nearestTime?.coords, {
+                    path: path.join(`/routes/${route}/photos/${routePhotoPath}`)
+                }))
+            }
         }
     }
 

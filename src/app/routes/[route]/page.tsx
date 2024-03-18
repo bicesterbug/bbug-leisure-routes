@@ -7,6 +7,7 @@ import getRoutePhotos from "@/data/getRoutePhotos";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import getBasePath from "@/data/getBasePath";
+import ExportedImage from "next-image-export-optimizer";
 
 export async function generateStaticParams() {
     const routes = await getRoutes();
@@ -46,7 +47,7 @@ export default async function Page({ params }: { params: { route: string } }) {
             {
                 photos.photos.map((photoPath) => {
                     return (
-                        <Image key={photoPath} src={`${basePath}/routes/${route}/photos/${photoPath}`} width={400} height={400} alt={photoPath} />
+                        <ExportedImage key={photoPath} src={`${basePath}/routes/${route}/photos/${photoPath}`} width={400} height={400} alt={photoPath} />
                     )
                 })
             }
