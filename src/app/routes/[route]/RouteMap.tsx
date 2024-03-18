@@ -5,6 +5,7 @@ import { MapContainer, Marker, Popup, TileLayer, GeoJSON } from "react-leaflet"
 import { icon } from "leaflet"
 import Image from "next/image"
 import getBasePath from "@/data/getBasePath"
+import ExportedImage from "next-image-export-optimizer"
 
 export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:FeatureCollection, photoCollection:FeatureCollection<Point>}) {
     const basePath = getBasePath();
@@ -17,6 +18,7 @@ export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:F
                     <GeoJSON data={routeGeojson} />
                     {
                         photoCollection.features.map((photoPoint, i) => {
+                            console.log("photo", photoPoint)
                             return (
                                 <Marker 
                                 key={i}
@@ -27,7 +29,7 @@ export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:F
                                 })}
                                 >
                                     <Popup>
-                                        <Image alt={photoPoint.properties?.path} src={`${basePath}/${photoPoint.properties?.path}`} width={500} height={500} />
+                                        <ExportedImage alt={photoPoint.properties?.path} src={`${basePath}${photoPoint.properties?.path}`} width={500} height={500} />
                                     </Popup>
                                 </Marker>
                             )
