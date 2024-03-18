@@ -9,7 +9,7 @@ import {point } from "@turf/turf";
 
 export default async function getRoutePhotos(route:string) : Promise<{photos:string[], features:FeatureCollection<Point>}> {
     const routePath = path.resolve('./public/routes', route, 'photos');
-    const routePhotoPaths = (await readdir(routePath)).filter(value => value.endsWith('.jpg'));
+    const routePhotoPaths = await readdir(routePath);
     const gpxTrackIndex = routePhotoPaths.findIndex((filename) => {
         return filename.endsWith('.gpx');
     });
@@ -35,7 +35,7 @@ export default async function getRoutePhotos(route:string) : Promise<{photos:str
     }
 
     return {
-        photos: routePhotoPaths,
+        photos: routePhotoPaths.filter(value => value.endsWith('.jpg')),
         features: featureCollection
     }
 }
