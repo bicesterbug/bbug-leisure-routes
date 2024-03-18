@@ -18,7 +18,6 @@ export default function RouteMap({routeGeojson, photoCollection}:{routeGeojson:F
                     <GeoJSON data={routeGeojson} />
                     {
                         photoCollection.features.map((photoPoint, i) => {
-                            console.log("photo", photoPoint)
                             return (
                                 <Marker 
                                 key={i}
