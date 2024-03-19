@@ -312,6 +312,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@photo-sphere-viewer/core@^5.7.2":
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/@photo-sphere-viewer/core/-/core-5.7.2.tgz#689a93354370b733441cfe336f7b0a04ab9df631"
+  integrity sha512-5RznXVRwuO+Izceae2SbwYM/H8GHtwxKlT26P4UcRFZYsYKllMAggAz9hhU729Vu+r1+il5PHvomIsmPHVTTaw==
+  dependencies:
+    three "^0.161.0"
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
@@ -2106,7 +2113,7 @@ ast-types-flow@^0.0.8:
   resolved "https://registry.yarnpkg.com/ast-types-flow/-/ast-types-flow-0.0.8.tgz#0a85e1c92695769ac13a428bb653e7538bea27d6"
   integrity sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==
 
-autoprefixer@^10.0.1:
+autoprefixer@^10.0.1, autoprefixer@^10.4.17:
   version "10.4.18"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.18.tgz#fcb171a3b017be7cb5d8b7a825f5aacbf2045163"
   integrity sha512-1DKbDfsr6KUElM6wg+0zRNkB/Q7WcKYAaK+pzXn+Xqmszm/5Xa9coeNdtP88Vi+dPzZnMjhge8GIV49ZQkDa+g==
@@ -2920,6 +2927,11 @@ esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
   integrity sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==
+
+eventemitter3@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-5.0.1.tgz#53f5ffd0a492ac800721bb42c66b841de96423c4"
+  integrity sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==
 
 exif-reader@^2.0.1:
   version "2.0.1"
@@ -3877,6 +3889,11 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+photo-sphere-viewer-lensflare-plugin@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/photo-sphere-viewer-lensflare-plugin/-/photo-sphere-viewer-lensflare-plugin-2.1.2.tgz#b7cc5196b43bd7b407c0be0c13464c6715f02ebb"
+  integrity sha512-jS/cqms2pAlQbiqVT+KjpRgNaE/BE4a+YpZUJOwcHvTBxwAzF0ZZjSUwUB8FISloGHhUD8rOAHQ8arUH6qWMzg==
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
@@ -4049,6 +4066,15 @@ react-leaflet@^4.2.1:
   integrity sha512-p9chkvhcKrWn/H/1FFeVSqLdReGwn2qmiobOQGO3BifX+/vV/39qhY8dGqbdcPh1e6jxh/QHriLXr7a4eLFK4Q==
   dependencies:
     "@react-leaflet/core" "^2.1.0"
+
+react-photo-sphere-viewer@^5.0.2-psv5.7.1:
+  version "5.0.2-psv5.7.1"
+  resolved "https://registry.yarnpkg.com/react-photo-sphere-viewer/-/react-photo-sphere-viewer-5.0.2-psv5.7.1.tgz#efc7891ca7a1335120473ed9b803217d781b9dce"
+  integrity sha512-n5S+CnIPnZiGm8C6GUNSDrfkFNwCpBI4KwmrBJQ5nHoxkoP3kZ85AkNYJUoL47+uJljDRuMPi+H16c37AvcLqQ==
+  dependencies:
+    autoprefixer "^10.4.17"
+    eventemitter3 "^5.0.1"
+    photo-sphere-viewer-lensflare-plugin "^2.1.2"
 
 react@^18.2.0:
   version "18.2.0"
@@ -4498,6 +4524,11 @@ thenify-all@^1.0.0:
   integrity sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==
   dependencies:
     any-promise "^1.0.0"
+
+three@^0.161.0:
+  version "0.161.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.161.0.tgz#38aafaa82fe5467fde2e33933515d1b6beb17d91"
+  integrity sha512-LC28VFtjbOyEu5b93K0bNRLw1rQlMJ85lilKsYj6dgTu+7i17W+JCCEbvrpmNHF1F3NAUqDSWq50UD7w9H2xQw==
 
 tinyqueue@^2.0.0, tinyqueue@^2.0.3:
   version "2.0.3"
