@@ -47,7 +47,9 @@ export default async function Page({ params }: { params: { route: string } }) {
             {
                 photos.photos.map((photoPath) => {
                     return (
-                        <ExportedImage key={photoPath} src={`${basePath}/routes/${route}/photos/${photoPath}`} width={400} height={400} alt={photoPath} />
+                        <Link key={photoPath} href={`/photo?path=${basePath}/routes/${route}/photos/${photoPath}`}>
+                        <ExportedImage  src={`${basePath}/routes/${route}/photos/${photoPath}`} width={400} height={400} alt={photoPath} />
+                        </Link>
                     )
                 })
             }
