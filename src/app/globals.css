@@ -93,6 +93,11 @@
     @apply font-medium;
   }
 
+  p {
+    @apply pb-1;
+    @apply pb-2;
+  }
+
   a {
     @apply underline;
     @apply text-sky-600;
