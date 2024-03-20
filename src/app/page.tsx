@@ -15,12 +15,14 @@ import path from "path";
 
 export default async function Home() {
   const routes = await getRoutes();
-  const readme = await readFile(path.resolve('README.md'), {encoding: 'utf8'})
+  const readme = await readFile(path.resolve('README.md'), {encoding: 'utf8'});
+  const apiDoc = await readFile(path.resolve('API.md'), {encoding: 'utf8'});
   return (
     <div>
       <div>
         <Markdown>{readme}</Markdown>
       </div>
+      <hr />
       <h1>Routes</h1>
       <Table>
         <TableHeader>
@@ -46,7 +48,11 @@ export default async function Home() {
         }
         </TableBody>
       </Table>
+      <hr />
+      <h1>API</h1>
+      <Markdown>{apiDoc}</Markdown>
 
+      
     </div>
   )
 }

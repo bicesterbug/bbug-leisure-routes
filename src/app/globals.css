@@ -93,6 +93,12 @@
     @apply font-medium;
   }
 
+  h4 {
+    @apply pt-4;
+    @apply pb-2;
+    @apply font-semibold;
+  }
+
   p {
     @apply pb-1;
     @apply pb-2;
