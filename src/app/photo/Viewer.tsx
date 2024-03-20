@@ -10,6 +10,6 @@ export default function Viewer() {
     const path = searchParams.get('path') ?? '';
     return (
         
-        <ReactPhotoSphereViewer src={path} height={'100vh'} width={'100%'} />
+        <ReactPhotoSphereViewer src={path} height={'80vh'} width={'100%'} />
     )
 }
