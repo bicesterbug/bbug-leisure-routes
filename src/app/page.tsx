@@ -1,21 +1,58 @@
 import getRoutes from "@/data/getRoutes"
 import Link from "next/link";
+import Markdown from 'react-markdown';
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table"
+import { readFile } from "fs/promises";
+import path from "path";
 
 export default async function Home() {
   const routes = await getRoutes();
+  const readme = await readFile(path.resolve('README.md'), {encoding: 'utf8'});
+  const apiDoc = await readFile(path.resolve('API.md'), {encoding: 'utf8'});
   return (
     <div>
-      <h1>Bicester Leisure Routes</h1>
-      
-      <ul>
+      <div>
+        <Markdown>{readme}</Markdown>
+      </div>
+      <hr />
+      <h1>Routes</h1>
+      <Table>
+        <TableHeader>
+          <TableRow>
+            <TableHead>ID</TableHead>
+            <TableHead>Name</TableHead>
+            <TableHead>Category</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
         {
           routes.map((route) => {
             return (
-              <li key={route.id}><Link href={`/routes/${route.id}`}>{route.id} {route.name}</Link></li>
+              <TableRow key={route.id}>
+                <TableCell>{route.id}</TableCell>
+                <TableCell>
+                  <Link href={`/routes/${route.id}`}>{route.id} {route.name}</Link>
+                </TableCell>
+                <TableCell>{route.level}</TableCell>
+              </TableRow>
             )
           })
         }
-      </ul>
+        </TableBody>
+      </Table>
+      <hr />
+      <h1>API</h1>
+      <Markdown>{apiDoc}</Markdown>
+
+      
     </div>
   )
 }
