@@ -85,4 +85,16 @@
     @apply pb-2;
     @apply text-xl;
   }
+
+  h3 {
+    @apply pt-4;
+    @apply pb-2;
+    @apply text-lg;
+    @apply font-medium;
+  }
+
+  a {
+    @apply underline;
+    @apply text-sky-600;
+  }
 }

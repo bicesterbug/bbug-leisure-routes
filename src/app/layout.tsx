@@ -18,8 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        
+        <div className="container">
+        <h1>Bicester Leisure Routes Documentation</h1>
         {children}
+        </div>
+       
         </body>
     </html>
   );

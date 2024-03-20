@@ -25,11 +25,8 @@ export default async function Page({ params }: { params: { route: string } }) {
     const basePath = getBasePath();
     return (
         <div>
-            <div className="flex gap-4">
-                <Link href={'/'}>Home</Link>
-            </div>
-            <h1>{meta?.id}: {meta?.name}</h1>
-            <h2>Download</h2>
+            <h2>{meta?.id}: {meta?.name}</h2>
+            <h3>Download</h3>
             <div className="flex gap-4">
                 <Button asChild>
                     <Link href={`/api/routes/${params.route}/route.gpx`}>GPX</Link>
@@ -38,11 +35,11 @@ export default async function Page({ params }: { params: { route: string } }) {
                     <Link href={`/api/routes/${params.route}/route.geojson`}>GeoJSON</Link>
                 </Button>
             </div>
-            <h2>Map</h2>
+            <h3>Map</h3>
             <div>
                 <RouteMap routeGeojson={geojson} photoCollection={photos.features} />
             </div>
-            <h2>Photos</h2>
+            <h3>Photos</h3>
             <div className="grid grid-cols-4 gap-4">
             {
                 photos.photos.map((photoPath) => {
