@@ -7,6 +7,11 @@ export async function generateStaticParams() {
 }
 
 export async function GET(request: Request, {params}: {params: {name: string}}) {
-    const photos = await getRoutePhotos(params.name);
-    return Response.json(photos)
+    try {
+        const photos = await getRoutePhotos(params.name);
+        return Response.json(photos)
+    } catch(err) {
+        return Response.json({});
+    }
+
 }
