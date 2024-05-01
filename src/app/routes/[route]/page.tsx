@@ -35,7 +35,7 @@ export default async function Page({ params }: { params: { route: string } }) {
                     <Link href={`/api/routes/${params.route}/route.geojson`}>GeoJSON</Link>
                 </Button>
             </div>
-            <h3>Map</h3>
+            <h3>Route Map</h3>
             <div>
                 <RouteMap routeGeojson={geojson} photoCollection={photos.features} />
             </div>
