@@ -13,6 +13,120 @@
     <desc>Start by the Bell Pub, and head up to Withington Road.</desc>
     <sym> </sym>
 </wpt>
+<wpt lat="51.90228887950112" lon="-1.1454212665557864">
+    <ele>76.7</ele>
+    <name>1</name>
+    <desc>Turn Left onto Town Walk North, follow the path then continue along Keble Road until you rejoin the shared path to the Left.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.90461234796158" lon="-1.1520624160766604">
+    <ele>80.2</ele>
+    <name>2</name>
+    <desc>Cross Buckingham Road and continue along the Segregated Path towards Banbury Road.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.905327237155895" lon="-1.1544549465179446">
+    <ele>81.7</ele>
+    <name>3</name>
+    <desc>Cross Banbury Road and then follow the dirt track towards Bure Park Nature Reserve. Take care as this path may become muddy and slippery after rain.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.906909220016466" lon="-1.1587464809417727">
+    <ele>80.1</ele>
+    <name>5</name>
+    <desc>Turn right and follow the gravel path through Bure Park Nature Reserve.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.9086235234721" lon="-1.1613428592681887">
+    <ele>79.3</ele>
+    <name>6</name>
+    <desc>Turn Left at the end and follow the Segregated Path under the railway until you reach Barry Avenue.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.907590977876104" lon="-1.1632633209228518">
+    <ele>82.0</ele>
+    <name>7</name>
+    <desc>Turn Right at Barry Avenue, joining the carriageway and follow the road until you reach Bucknell Road.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.908233012223825" lon="-1.1672222614288332">
+    <ele>85.0</ele>
+    <name>8</name>
+    <desc>Carefully cross Bucknell Road, turn Right and follow the carriageway. Turn Left onto Kingsley Road at the local centre.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.90875900328582" lon="-1.1688751173129133">
+    <ele>84.6</ele>
+    <name>9</name>
+    <desc>Turn Right onto Browning Drive and follow the road to Shakespere Drive.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.907425129771106" lon="-1.1726531608134396">
+    <ele>84.6</ele>
+    <name>10</name>
+    <desc>Turn Right onto Shakespeare Drive, then immediately Left onto Dryden Avenue.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.90405984826846" lon="-1.1756270424443718">
+    <ele>82.0</ele>
+    <name>11</name>
+    <desc>Turn Right, at the roundabout, taking the Third exit onto Wansbeck Drive</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.902276474502166" lon="-1.1779712501585362">
+    <ele>82.7</ele>
+    <name>12</name>
+    <desc>Turn Right onto Isis Avenue, and follow the Road.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.90087219336695" lon="-1.1804064950655049">
+    <ele>82.7</ele>
+    <name>13</name>
+    <desc>At the bend, follow the small path behind the tree adjacent to No.100. then turn Right to reach the Middleton Stoney Road.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.90031983075823" lon="-1.1810968604441088">
+    <ele>82.4</ele>
+    <name>14</name>
+    <desc>Cross Middleton Stoney Road and join the Shared Path alongside Vendee Drive. This is a pleasant path with play areas and parks to the Left, and access to the wider countryside to the Right.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.88779154677363" lon="-1.1735635327412621">
+    <ele>69.2</ele>
+    <name>14</name>
+    <desc>Turn Left just after the Playing Fields to follow the Shared Path past Whitelands Academy. Continue to follow the Shared Path, past Premier Inn, until you reach Brewers Fayre.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.89162156479753" lon="-1.1635190958041466">
+    <ele>67.4</ele>
+    <name>15</name>
+    <desc>Use the Controlled Crossing then turn Left, following the Shared Path past Bicester Village to the Acorn Pub.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.894224667009276" lon="-1.1601658925366334">
+    <ele>70.3</ele>
+    <name>16</name>
+    <desc>Turn Right at the Acorn Pub and follow the Shared Path until you reach the Wooden Bridge at Pingle Field.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.892745224536796" lon="-1.155265056991788">
+    <ele>69.1</ele>
+    <name>17</name>
+    <desc>Turn Left, and ride through Pingle Field onto Old Place Yard, following the road until you reach the Causeway.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.896294305494905" lon="-1.1534303426742556">
+    <ele>74.2</ele>
+    <name>17</name>
+    <desc>Turn Right onto the Causeway, continuing straight onto Market Square at the end.</desc>
+    <sym> </sym>
+</wpt>
+<wpt lat="51.897082152699745" lon="-1.1502867937088015">
+    <ele>75.4</ele>
+    <name>18</name>
+    <desc>Turn Left onto Sheep Street. Cycling is currently prohibited on Sheep Street, so please dismount at this point. There are a range of refreshment options on Sheep Street, Crown Walk and Pioneer Square to enjoy.</desc>
+    <sym> </sym>
+</wpt>
 <trk>
     <name>new</name>
     <type>Cycling</type>
@@ -74,62 +188,29 @@
     <trkpt lat="51.902302" lon="-1.145419">
         <ele>76.3</ele>
     </trkpt>
-    <trkpt lat="51.902327" lon="-1.145489">
-        <ele>76.3</ele>
-    </trkpt>
     <trkpt lat="51.902404" lon="-1.1457">
         <ele>76.5</ele>
     </trkpt>
-    <trkpt lat="51.902648" lon="-1.145586">
-        <ele>75.8</ele>
+    <trkpt lat="51.902478" lon="-1.145899">
+        <ele>77.0</ele>
     </trkpt>
-    <trkpt lat="51.902665" lon="-1.145647">
-        <ele>76.0</ele>
+    <trkpt lat="51.902591" lon="-1.146201">
+        <ele>77.0</ele>
     </trkpt>
-    <trkpt lat="51.902763" lon="-1.146002">
-        <ele>76.0</ele>
+    <trkpt lat="51.902623" lon="-1.146298">
+        <ele>76.8</ele>
     </trkpt>
-    <trkpt lat="51.902832" lon="-1.146193">
-        <ele>76.0</ele>
+    <trkpt lat="51.902776" lon="-1.146758">
+        <ele>76.8</ele>
     </trkpt>
-    <trkpt lat="51.902849" lon="-1.146341">
-        <ele>76.0</ele>
+    <trkpt lat="51.902889" lon="-1.147076">
+        <ele>76.8</ele>
     </trkpt>
-    <trkpt lat="51.902886" lon="-1.146428">
-        <ele>75.8</ele>
+    <trkpt lat="51.902936" lon="-1.147204">
+        <ele>76.8</ele>
     </trkpt>
-    <trkpt lat="51.902934" lon="-1.146471">
-        <ele>75.8</ele>
-    </trkpt>
-    <trkpt lat="51.903057" lon="-1.146345">
-        <ele>75.0</ele>
-    </trkpt>
-    <trkpt lat="51.903328" lon="-1.14604">
-        <ele>74.0</ele>
-    </trkpt>
-    <trkpt lat="51.903434" lon="-1.146087">
-        <ele>73.8</ele>
-    </trkpt>
-    <trkpt lat="51.903499" lon="-1.146194">
-        <ele>74.0</ele>
-    </trkpt>
-    <trkpt lat="51.903707" lon="-1.146697">
-        <ele>74.0</ele>
-    </trkpt>
-    <trkpt lat="51.903287" lon="-1.147184">
-        <ele>75.3</ele>
-    </trkpt>
-    <trkpt lat="51.903251" lon="-1.147236">
-        <ele>75.5</ele>
-    </trkpt>
-    <trkpt lat="51.903228" lon="-1.147301">
-        <ele>75.8</ele>
-    </trkpt>
-    <trkpt lat="51.903219" lon="-1.147389">
-        <ele>76.0</ele>
-    </trkpt>
-    <trkpt lat="51.903255" lon="-1.147384">
-        <ele>75.8</ele>
+    <trkpt lat="51.903048" lon="-1.147277">
+        <ele>76.5</ele>
     </trkpt>
     <trkpt lat="51.903219" lon="-1.147389">
         <ele>76.0</ele>
@@ -827,190 +908,124 @@
     <trkpt lat="51.887772" lon="-1.173569">
         <ele>70.3</ele>
     </trkpt>
-    <trkpt lat="51.887494" lon="-1.172881">
-        <ele>68.8</ele>
+    <trkpt lat="51.888023" lon="-1.173005">
+        <ele>70.8</ele>
     </trkpt>
-    <trkpt lat="51.887296" lon="-1.17219">
-        <ele>68.5</ele>
+    <trkpt lat="51.888312" lon="-1.172323">
+        <ele>71.5</ele>
     </trkpt>
-    <trkpt lat="51.8873" lon="-1.17214">
-        <ele>68.5</ele>
+    <trkpt lat="51.888456" lon="-1.17209">
+        <ele>71.5</ele>
     </trkpt>
-    <trkpt lat="51.887313" lon="-1.172091">
-        <ele>68.5</ele>
+    <trkpt lat="51.888529" lon="-1.171933">
+        <ele>71.3</ele>
     </trkpt>
-    <trkpt lat="51.887305" lon="-1.172056">
-        <ele>68.5</ele>
+    <trkpt lat="51.888521" lon="-1.171828">
+        <ele>71.0</ele>
     </trkpt>
-    <trkpt lat="51.887287" lon="-1.17198">
-        <ele>68.3</ele>
+    <trkpt lat="51.888579" lon="-1.171693">
+        <ele>71.0</ele>
     </trkpt>
-    <trkpt lat="51.887272" lon="-1.171916">
-        <ele>68.3</ele>
+    <trkpt lat="51.889013" lon="-1.170811">
+        <ele>70.8</ele>
     </trkpt>
-    <trkpt lat="51.887262" lon="-1.171877">
-        <ele>68.3</ele>
+    <trkpt lat="51.889085" lon="-1.170619">
+        <ele>70.5</ele>
     </trkpt>
-    <trkpt lat="51.8872" lon="-1.171857">
-        <ele>68.3</ele>
+    <trkpt lat="51.889246" lon="-1.170111">
+        <ele>70.0</ele>
     </trkpt>
-    <trkpt lat="51.887165" lon="-1.171814">
-        <ele>68.0</ele>
+    <trkpt lat="51.889402" lon="-1.169581">
+        <ele>69.8</ele>
     </trkpt>
-    <trkpt lat="51.887059" lon="-1.17132">
-        <ele>67.5</ele>
+    <trkpt lat="51.889444" lon="-1.169371">
+        <ele>69.5</ele>
     </trkpt>
-    <trkpt lat="51.886927" lon="-1.170891">
-        <ele>67.3</ele>
-    </trkpt>
-    <trkpt lat="51.886678" lon="-1.170256">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886652" lon="-1.170188">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886646" lon="-1.170114">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886656" lon="-1.170049">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.88682" lon="-1.169611">
+    <trkpt lat="51.889535" lon="-1.168913">
         <ele>67.0</ele>
     </trkpt>
-    <trkpt lat="51.886775" lon="-1.169562">
+    <trkpt lat="51.88996" lon="-1.166787">
         <ele>67.0</ele>
     </trkpt>
-    <trkpt lat="51.886717" lon="-1.16952">
-        <ele>67.0</ele>
-    </trkpt>
-    <trkpt lat="51.886685" lon="-1.169478">
-        <ele>67.0</ele>
-    </trkpt>
-    <trkpt lat="51.886668" lon="-1.169426">
-        <ele>67.0</ele>
-    </trkpt>
-    <trkpt lat="51.88664" lon="-1.169318">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886608" lon="-1.169239">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886549" lon="-1.169271">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886488" lon="-1.169285">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.886431" lon="-1.169273">
-        <ele>66.5</ele>
-    </trkpt>
-    <trkpt lat="51.886387" lon="-1.16925">
-        <ele>66.5</ele>
-    </trkpt>
-    <trkpt lat="51.886317" lon="-1.169188">
-        <ele>66.5</ele>
-    </trkpt>
-    <trkpt lat="51.886171" lon="-1.168999">
-        <ele>66.3</ele>
-    </trkpt>
-    <trkpt lat="51.886294" lon="-1.168825">
-        <ele>66.3</ele>
-    </trkpt>
-    <trkpt lat="51.886815" lon="-1.168088">
-        <ele>66.8</ele>
-    </trkpt>
-    <trkpt lat="51.887251" lon="-1.167592">
-        <ele>66.5</ele>
-    </trkpt>
-    <trkpt lat="51.887731" lon="-1.167009">
+    <trkpt lat="51.890098" lon="-1.166168">
         <ele>67.8</ele>
     </trkpt>
-    <trkpt lat="51.887916" lon="-1.166783">
-        <ele>68.3</ele>
-    </trkpt>
-    <trkpt lat="51.888678" lon="-1.165852">
+    <trkpt lat="51.890385" lon="-1.165402">
         <ele>68.5</ele>
     </trkpt>
-    <trkpt lat="51.888723" lon="-1.165785">
-        <ele>68.5</ele>
-    </trkpt>
-    <trkpt lat="51.888751" lon="-1.165726">
+    <trkpt lat="51.890533" lon="-1.16485">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.888794" lon="-1.165715">
+    <trkpt lat="51.890526" lon="-1.164779">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.888834" lon="-1.165703">
+    <trkpt lat="51.890542" lon="-1.164763">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.888861" lon="-1.165683">
+    <trkpt lat="51.890562" lon="-1.164744">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.888881" lon="-1.165635">
+    <trkpt lat="51.890589" lon="-1.164718">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.888895" lon="-1.165572">
+    <trkpt lat="51.890605" lon="-1.1647">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.888881" lon="-1.165458">
+    <trkpt lat="51.890577" lon="-1.164633">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.889183" lon="-1.165158">
-        <ele>68.8</ele>
-    </trkpt>
-    <trkpt lat="51.88933" lon="-1.165039">
-        <ele>68.8</ele>
-    </trkpt>
-    <trkpt lat="51.889415" lon="-1.16504">
-        <ele>68.8</ele>
-    </trkpt>
-    <trkpt lat="51.889468" lon="-1.165011">
-        <ele>68.8</ele>
-    </trkpt>
-    <trkpt lat="51.889519" lon="-1.164968">
-        <ele>68.8</ele>
-    </trkpt>
-    <trkpt lat="51.889933" lon="-1.164557">
-        <ele>68.8</ele>
-    </trkpt>
-    <trkpt lat="51.890468" lon="-1.164007">
+    <trkpt lat="51.890592" lon="-1.164615">
         <ele>68.3</ele>
     </trkpt>
-    <trkpt lat="51.891255" lon="-1.163256">
+    <trkpt lat="51.890618" lon="-1.164587">
+        <ele>68.3</ele>
+    </trkpt>
+    <trkpt lat="51.890643" lon="-1.164558">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891262" lon="-1.163176">
+    <trkpt lat="51.890651" lon="-1.16455">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891241" lon="-1.163097">
+    <trkpt lat="51.890658" lon="-1.164506">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891238" lon="-1.163085">
+    <trkpt lat="51.890686" lon="-1.164433">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.89125" lon="-1.163078">
+    <trkpt lat="51.890735" lon="-1.164375">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891289" lon="-1.163048">
+    <trkpt lat="51.890777" lon="-1.164372">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891328" lon="-1.163019">
+    <trkpt lat="51.890838" lon="-1.164308">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891342" lon="-1.163008">
+    <trkpt lat="51.890856" lon="-1.164254">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.89137" lon="-1.163104">
+    <trkpt lat="51.891331" lon="-1.163788">
+        <ele>68.3</ele>
+    </trkpt>
+    <trkpt lat="51.891638" lon="-1.163461">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891381" lon="-1.163095">
+    <trkpt lat="51.891629" lon="-1.163437">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891399" lon="-1.163081">
+    <trkpt lat="51.891604" lon="-1.163366">
         <ele>68.0</ele>
     </trkpt>
-    <trkpt lat="51.891417" lon="-1.163066">
+    <trkpt lat="51.891579" lon="-1.163295">
+        <ele>68.0</ele>
+    </trkpt>
+    <trkpt lat="51.891504" lon="-1.163205">
+        <ele>68.0</ele>
+    </trkpt>
+    <trkpt lat="51.891485" lon="-1.163156">
+        <ele>68.0</ele>
+    </trkpt>
+    <trkpt lat="51.891463" lon="-1.163097">
         <ele>68.0</ele>
     </trkpt>
     <trkpt lat="51.891446" lon="-1.163064">
@@ -1056,9 +1071,6 @@
         <ele>68.3</ele>
     </trkpt>
     <trkpt lat="51.892525" lon="-1.161922">
-        <ele>68.3</ele>
-    </trkpt>
-    <trkpt lat="51.892538" lon="-1.161863">
         <ele>68.3</ele>
     </trkpt>
     <trkpt lat="51.892558" lon="-1.16177">
