@@ -27,9 +27,11 @@ export default async function getRoutePhotos(route:string) : Promise<{photos:str
                     if(!originalDate || !track.time) return false;
                     return track.time > new Date(originalDate)
                 })
-                featureCollection.features.push(point(nearestTime?.coords, {
-                    path: path.join(`/routes/${route}/photos/${routePhotoPath}`)
-                }))
+                if(nearestTime?.coords) {
+                    featureCollection.features.push(point(nearestTime?.coords, {
+                        path: path.join(`/routes/${route}/photos/${routePhotoPath}`)
+                    }))
+                }
             }
         }
     }
