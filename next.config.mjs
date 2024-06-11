@@ -3,6 +3,7 @@ const nextConfig = {
     output: 'export',
     basePath: process.env.NEXT_PUBLIC_BASE_URL ?? '',
     images: {
+      
         loader: "custom",
         imageSizes: [16, 48, 96, 128, 256, 384],
         deviceSizes: [640, 828, 1080, 1920, 2048, 3840],
