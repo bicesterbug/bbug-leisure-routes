@@ -1,6 +1,6 @@
 import { readFile, readdir } from "fs/promises";
 import path from "path";
-import exif from "exif-reader";
+import exif, { GPSInfoTags } from "exif-reader";
 import { gpx } from "@tmcw/togeojson";
 import { DOMParser } from "@xmldom/xmldom";
 import { Feature, FeatureCollection, LineString, Point } from "geojson";
@@ -34,12 +34,55 @@ export default async function getRoutePhotos(route:string) : Promise<{photos:str
                 }
             }
         }
+    } else {
+        for (const routePhotoPath of routePhotoPaths) {
+            if(routePhotoPath.endsWith('.jpg')) {
+                const photoBuff = await sharp(path.join(routePath, routePhotoPath)).metadata()
+                const metadata = photoBuff.exif ? exif(photoBuff.exif) : null
+                const originalDate = metadata && metadata.Photo?.DateTimeOriginal ? metadata.Photo.DateTimeOriginal : null;
+                if(metadata && metadata.GPSInfo) {
+                    const point = gpsToCoords(metadata.GPSInfo, routePhotoPath)
+                    if(point) {
+                        featureCollection.features.push(point);
+                    }
+                }
+            }
+        }
     }
 
     return {
         photos: routePhotoPaths.filter(value => value.endsWith('.jpg')),
         features: featureCollection
     }
+}
+
+function gpsToCoords(gpsInfo:Partial<GPSInfoTags>, path:string) {
+    if(gpsInfo.GPSLatitude && gpsInfo.GPSLatitudeRef && gpsInfo.GPSLongitude && gpsInfo.GPSLongitudeRef) {
+        const latitude = dmsToDecimal(gpsInfo.GPSLatitude, gpsInfo.GPSLatitudeRef);
+        const longitude = dmsToDecimal(gpsInfo.GPSLongitude, gpsInfo.GPSLongitudeRef);
+        const geojsonPoint = point([longitude, latitude]);
+        return geojsonPoint;
+    }
+
+    return null;
+
+}
+
+function dmsToDecimal(latArray:number[], direction:string) {
+    // Extracting the values from the array
+    const degrees = latArray[0];
+    const minutes = latArray[1];
+    const seconds = latArray[2];
+
+    // Converting DMS to decimal degrees
+    let decimal = degrees + minutes / 60 + seconds / 3600;
+
+    // Applying the direction
+    if (direction === 'S' || direction === 'W') {
+        decimal = -decimal;
+    }
+
+    return decimal;
 }
 
 async function getTrackGeojson(path:string) {
