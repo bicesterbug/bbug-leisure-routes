@@ -41,7 +41,7 @@ export default async function getRoutePhotos(route:string) : Promise<{photos:str
                 const metadata = photoBuff.exif ? exif(photoBuff.exif) : null
                 const originalDate = metadata && metadata.Photo?.DateTimeOriginal ? metadata.Photo.DateTimeOriginal : null;
                 if(metadata && metadata.GPSInfo) {
-                    const point = gpsToCoords(metadata.GPSInfo, routePhotoPath)
+                    const point = gpsToCoords(metadata.GPSInfo, `/routes/${route}/photos/${routePhotoPath}`)
                     if(point) {
                         featureCollection.features.push(point);
                     }
