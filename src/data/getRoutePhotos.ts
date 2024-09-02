@@ -60,7 +60,7 @@ function gpsToCoords(gpsInfo:Partial<GPSInfoTags>, path:string) {
     if(gpsInfo.GPSLatitude && gpsInfo.GPSLatitudeRef && gpsInfo.GPSLongitude && gpsInfo.GPSLongitudeRef) {
         const latitude = dmsToDecimal(gpsInfo.GPSLatitude, gpsInfo.GPSLatitudeRef);
         const longitude = dmsToDecimal(gpsInfo.GPSLongitude, gpsInfo.GPSLongitudeRef);
-        const geojsonPoint = point([longitude, latitude]);
+        const geojsonPoint = point([longitude, latitude], {path});
         return geojsonPoint;
     }
 
