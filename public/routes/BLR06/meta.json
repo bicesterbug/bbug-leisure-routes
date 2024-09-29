@@ -2,5 +2,7 @@
     "id": "BLR06",
     "name": "Heyford Heritage Ride",
     "level": "hard",
+    "distance":"20km",
+    "komoot":"https://www.komoot.com/tour/1831815679",
     "description": "This route starts at the Bucknell Road local centre and takes riders to Heyford along a pleasant countryside bridleway. The route then loops around the historic airfield and returns along quiet country lanes via Fewcott, Ardley and Bucknell."
 }

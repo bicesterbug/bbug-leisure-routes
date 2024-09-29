@@ -2,5 +2,7 @@
     "id": "BLR05",
     "name": "Southern Circuit from Bicester Village",
     "level": "hard",
+    "distance":"25km",
+    "komoot":"https://www.komoot.com/tour/1788795452",
     "description": "A pleasant ride around the bridleways and villages South of Bicester. This route is a little too bumpy for standard road bikes due to a few unpaved sections."
 }

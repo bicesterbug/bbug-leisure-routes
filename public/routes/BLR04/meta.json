@@ -2,5 +2,7 @@
     "id": "BLR04",
     "name": "Langford Route",
     "level": "easy",
+    "distance":"7km",
+    "komoot":"https://www.komoot.com/tour/1823428210",
     "description": "Starting from the Langford local centre and taking in Langford Park and Graven Hill. This is a great starter route on low traffic roads and cycle paths."
 }

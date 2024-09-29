@@ -2,5 +2,7 @@
     "id": "BLR03",
     "name": "Northern Village Circular",
     "level": "hard",
+    "distance":"20km",
+    "komoot":"https://www.komoot.com/tour/1747345082",
     "description": "A circular route, starting at Glory Farm Local Centre, taking riders out through Caversfield, Stratton Audley, Poundon and Launton. The ride is mainly on road, following quiet country lanes outside of town."
 }

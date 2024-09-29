@@ -2,5 +2,7 @@
     "id": "BLR02",
     "name": "West Bicester Loop",
     "level": "medium",
+    "distance":"9km",
+    "komoot":"https://www.komoot.com/tour/1747342112",
     "description": "Starting in the Town Centre this route takes you to Bure Park, Kingsmere Open Space, Bicester Avenue Garden Centre and back to Market Square."
 }
