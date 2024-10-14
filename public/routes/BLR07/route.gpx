@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="https://www.komoot.de" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.topografix.com/GPX/gpx_style/0/2 http://www.topografix.com/GPX/gpx_style/0/2/gpx_style.xsd" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2">
+  <metadata>
+    <name>BLR07 - Kingsmere Starter Ride</name>
+    <author>
+      <name>gpx.studio</name>
+      <link href="https://gpx.studio"/>
+    </author>
+  </metadata>
+  <wpt lat="51.888976" lon="-1.172613">
+    <ele>71.7629210331021</ele>
+    <name>WP</name>
+    <cmt>Starting at Whitelands Farm Sports Ground, take the shared path past the car park, towards Vendee Drive.</cmt>
+    <desc>Starting at Whitelands Farm Sports Ground, take the shared path past the car park, towards Vendee Drive.</desc>
+  </wpt>
+  <wpt lat="51.888346" lon="-1.174272">
+    <ele>72.7275776070551</ele>
+    <name>WP</name>
+    <cmt>Follow the path around to the right, along the edge of the field.</cmt>
+    <desc>Follow the path around to the right, along the edge of the field.</desc>
+  </wpt>
+  <wpt lat="51.891988" lon="-1.177128">
+    <ele>75.69063019137899</ele>
+    <name>WP</name>
+    <cmt>Take the exit from the sports field to the shared path alongside Vendee Drive. continuing until you reach the crossing.</cmt>
+    <desc>Take the exit from the sports field to the shared path alongside Vendee Drive. continuing until you reach the crossing.</desc>
+  </wpt>
+  <wpt lat="51.894201" lon="-1.180967">
+    <ele>77.88165996596308</ele>
+    <name>WP</name>
+    <cmt>Turn right at the crossing and follow the shared path past Whitelands Farm, then turn right and right again, back towards the sports fields.</cmt>
+    <desc>Turn right at the crossing and follow the shared path past Whitelands Farm, then turn right and right again, back towards the sports fields.</desc>
+  </wpt>
+  <wpt lat="51.892883" lon="-1.176066">
+    <ele>73.79782941921245</ele>
+    <name>WP</name>
+    <cmt>As you reach the sports fields, turn left and follow the shared path back to the sports centre.</cmt>
+    <desc>As you reach the sports fields, turn left and follow the shared path back to the sports centre.</desc>
+  </wpt>
+  <trk>
+    <name>BLR07 - Kingsmere Starter Ride</name>
+    <trkseg>
+      <trkpt lat="51.889009" lon="-1.172655">
+        <ele>69.948673</ele>
+        <time>2024-10-14T19:52:01.611Z</time>
+      </trkpt>
+      <trkpt lat="51.888849" lon="-1.172998">
+        <ele>69.948673</ele>
+        <time>2024-10-14T19:52:07.982Z</time>
+      </trkpt>
+      <trkpt lat="51.888544" lon="-1.173619">
+        <ele>69.948673</ele>
+        <time>2024-10-14T19:52:19.850Z</time>
+      </trkpt>
+      <trkpt lat="51.888347" lon="-1.174024">
+        <ele>70.05666</ele>
+        <time>2024-10-14T19:52:27.689Z</time>
+      </trkpt>
+      <trkpt lat="51.888316" lon="-1.174156">
+        <ele>70.11072</ele>
+        <time>2024-10-14T19:52:29.905Z</time>
+      </trkpt>
+      <trkpt lat="51.888342" lon="-1.174252">
+        <ele>70.150849</ele>
+        <time>2024-10-14T19:52:31.526Z</time>
+      </trkpt>
+      <trkpt lat="51.888376" lon="-1.174327">
+        <ele>70.186469</ele>
+        <time>2024-10-14T19:52:32.973Z</time>
+      </trkpt>
+      <trkpt lat="51.889412" lon="-1.175542">
+        <ele>70.979633</ele>
+        <time>2024-10-14T19:53:04.662Z</time>
+      </trkpt>
+      <trkpt lat="51.889589" lon="-1.1755">
+        <ele>71.080035</ele>
+        <time>2024-10-14T19:53:09.053Z</time>
+      </trkpt>
+      <trkpt lat="51.889746" lon="-1.175577">
+        <ele>71.141161</ele>
+        <time>2024-10-14T19:53:13.074Z</time>
+      </trkpt>
+      <trkpt lat="51.88997" lon="-1.175914">
+        <ele>71.255066</ele>
+        <time>2024-10-14T19:53:20.492Z</time>
+      </trkpt>
+      <trkpt lat="51.890043" lon="-1.175961">
+        <ele>71.284338</ele>
+        <time>2024-10-14T19:53:22.389Z</time>
+      </trkpt>
+      <trkpt lat="51.890316" lon="-1.175984">
+        <ele>71.386206</ele>
+        <time>2024-10-14T19:53:28.958Z</time>
+      </trkpt>
+      <trkpt lat="51.890532" lon="-1.176141">
+        <ele>71.474424</ele>
+        <time>2024-10-14T19:53:34.593Z</time>
+      </trkpt>
+      <trkpt lat="51.890712" lon="-1.176353">
+        <ele>71.557347</ele>
+        <time>2024-10-14T19:53:39.824Z</time>
+      </trkpt>
+      <trkpt lat="51.890885" lon="-1.176496">
+        <ele>71.629718</ele>
+        <time>2024-10-14T19:53:44.311Z</time>
+      </trkpt>
+      <trkpt lat="51.89121" lon="-1.176481">
+        <ele>71.748659</ele>
+        <time>2024-10-14T19:53:51.686Z</time>
+      </trkpt>
+      <trkpt lat="51.891582" lon="-1.17691">
+        <ele>71.895908</ele>
+        <time>2024-10-14T19:54:01.924Z</time>
+      </trkpt>
+      <trkpt lat="51.891789" lon="-1.176963">
+        <ele>71.963493</ele>
+        <time>2024-10-14T19:54:06.677Z</time>
+      </trkpt>
+      <trkpt lat="51.891982" lon="-1.177118">
+        <ele>72.032959</ele>
+        <time>2024-10-14T19:54:11.673Z</time>
+      </trkpt>
+      <trkpt lat="51.891902" lon="-1.177305">
+        <ele>72.078244</ele>
+        <time>2024-10-14T19:54:21.443Z</time>
+      </trkpt>
+      <trkpt lat="51.892492" lon="-1.177934">
+        <ele>72.306003</ele>
+        <time>2024-10-14T19:54:38.541Z</time>
+      </trkpt>
+      <trkpt lat="51.892516" lon="-1.177962">
+        <ele>72.317655</ele>
+        <time>2024-10-14T19:54:39.257Z</time>
+      </trkpt>
+      <trkpt lat="51.892537" lon="-1.177992">
+        <ele>72.344347</ele>
+        <time>2024-10-14T19:54:39.960Z</time>
+      </trkpt>
+      <trkpt lat="51.892798" lon="-1.178356">
+        <ele>72.672665</ele>
+        <time>2024-10-14T19:54:48.607Z</time>
+      </trkpt>
+      <trkpt lat="51.893204" lon="-1.179032">
+        <ele>73.22768</ele>
+        <time>2024-10-14T19:55:03.971Z</time>
+      </trkpt>
+      <trkpt lat="51.893767" lon="-1.180194">
+        <ele>74.063683</ele>
+        <time>2024-10-14T19:55:28.404Z</time>
+      </trkpt>
+      <trkpt lat="51.894202" lon="-1.180957">
+        <ele>74.374397</ele>
+        <time>2024-10-14T19:55:44.743Z</time>
+      </trkpt>
+      <trkpt lat="51.894198" lon="-1.180098">
+        <ele>74.631345</ele>
+        <time>2024-10-14T19:55:57.596Z</time>
+      </trkpt>
+      <trkpt lat="51.894208" lon="-1.179881">
+        <ele>74.696434</ele>
+        <time>2024-10-14T19:56:00.743Z</time>
+      </trkpt>
+      <trkpt lat="51.894268" lon="-1.17959">
+        <ele>74.788206</ele>
+        <time>2024-10-14T19:56:05.178Z</time>
+      </trkpt>
+      <trkpt lat="51.894293" lon="-1.179272">
+        <ele>74.884094</ele>
+        <time>2024-10-14T19:56:09.613Z</time>
+      </trkpt>
+      <trkpt lat="51.89442" lon="-1.177336">
+        <ele>74.258271</ele>
+        <time>2024-10-14T19:56:34.437Z</time>
+      </trkpt>
+      <trkpt lat="51.894489" lon="-1.176359">
+        <ele>73.923788</ele>
+        <time>2024-10-14T19:56:46.265Z</time>
+      </trkpt>
+      <trkpt lat="51.894486" lon="-1.176107">
+        <ele>73.79162</ele>
+        <time>2024-10-14T19:56:49.376Z</time>
+      </trkpt>
+      <trkpt lat="51.894349" lon="-1.175579">
+        <ele>73.470615</ele>
+        <time>2024-10-14T19:56:56.310Z</time>
+      </trkpt>
+      <trkpt lat="51.894379" lon="-1.175242">
+        <ele>73.279792</ele>
+        <time>2024-10-14T19:57:00.349Z</time>
+      </trkpt>
+      <trkpt lat="51.894016" lon="-1.174753">
+        <ele>72.85109</ele>
+        <time>2024-10-14T19:57:09.566Z</time>
+      </trkpt>
+      <trkpt lat="51.893997" lon="-1.17463">
+        <ele>72.780028</ele>
+        <time>2024-10-14T19:57:11.082Z</time>
+      </trkpt>
+      <trkpt lat="51.893985" lon="-1.174554">
+        <ele>72.736062</ele>
+        <time>2024-10-14T19:57:12.001Z</time>
+      </trkpt>
+      <trkpt lat="51.893768" lon="-1.174904">
+        <ele>72.458007</ele>
+        <time>2024-10-14T19:57:33.304Z</time>
+      </trkpt>
+      <trkpt lat="51.893615" lon="-1.17514">
+        <ele>72.26717</ele>
+        <time>2024-10-14T19:57:47.955Z</time>
+      </trkpt>
+      <trkpt lat="51.893487" lon="-1.175279">
+        <ele>72.141048</ele>
+        <time>2024-10-14T19:57:58.665Z</time>
+      </trkpt>
+      <trkpt lat="51.893261" lon="-1.175331">
+        <ele>71.954207</ele>
+        <time>2024-10-14T19:58:14.592Z</time>
+      </trkpt>
+      <trkpt lat="51.893192" lon="-1.175443">
+        <ele>71.874267</ele>
+        <time>2024-10-14T19:58:21.354Z</time>
+      </trkpt>
+      <trkpt lat="51.893075" lon="-1.17569">
+        <ele>71.716983</ele>
+        <time>2024-10-14T19:58:25.167Z</time>
+      </trkpt>
+      <trkpt lat="51.892884" lon="-1.176068">
+        <ele>71.470205</ele>
+        <time>2024-10-14T19:58:31.163Z</time>
+      </trkpt>
+      <trkpt lat="51.892437" lon="-1.175549">
+        <ele>71.020096</ele>
+        <time>2024-10-14T19:58:42.192Z</time>
+      </trkpt>
+      <trkpt lat="51.892138" lon="-1.175128">
+        <ele>70.708977</ele>
+        <time>2024-10-14T19:58:50.097Z</time>
+      </trkpt>
+      <trkpt lat="51.891738" lon="-1.174959">
+        <ele>70.411611</ele>
+        <time>2024-10-14T19:58:58.296Z</time>
+      </trkpt>
+      <trkpt lat="51.891392" lon="-1.174482">
+        <ele>70.084814</ele>
+        <time>2024-10-14T19:59:07.281Z</time>
+      </trkpt>
+      <trkpt lat="51.891265" lon="-1.17418">
+        <ele>69.922571</ele>
+        <time>2024-10-14T19:59:11.755Z</time>
+      </trkpt>
+      <trkpt lat="51.890898" lon="-1.173891">
+        <ele>69.629039</ele>
+        <time>2024-10-14T19:59:19.876Z</time>
+      </trkpt>
+      <trkpt lat="51.890808" lon="-1.173719">
+        <ele>69.528925</ele>
+        <time>2024-10-14T19:59:22.640Z</time>
+      </trkpt>
+      <trkpt lat="51.890676" lon="-1.173232">
+        <ele>69.51019</ele>
+        <time>2024-10-14T19:59:29.188Z</time>
+      </trkpt>
+      <trkpt lat="51.889586" lon="-1.171855">
+        <ele>69.51019</ele>
+        <time>2024-10-14T19:59:58.531Z</time>
+      </trkpt>
+      <trkpt lat="51.889492" lon="-1.171831">
+        <ele>69.51019</ele>
+        <time>2024-10-14T20:00:00.612Z</time>
+      </trkpt>
+      <trkpt lat="51.889329" lon="-1.172024">
+        <ele>69.51019</ele>
+        <time>2024-10-14T20:00:05.063Z</time>
+      </trkpt>
+      <trkpt lat="51.889093" lon="-1.172475">
+        <ele>69.51019</ele>
+        <time>2024-10-14T20:00:13.205Z</time>
+      </trkpt>
+      <trkpt lat="51.889009" lon="-1.172655">
+        <ele>69.51019</ele>
+        <time>2024-10-14T20:00:16.373Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
